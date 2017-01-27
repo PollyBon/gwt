@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+
+    <title>Web Application Starter Project</title>
+
+    <script type="text/javascript" language="javascript" src="MyGwtApp/MyGwtApp.nocache.js"></script>
+</head>
+<body>
+<h1 class="text-center display-4">Contacts book</h1>
+
+<table class="table table-bordered table-hover">
+    <thead>
+    <tr>
+        <td>Name</td>
+        <td>Surname</td>
+        <td>Phone number</td>
+        <td></td>
+        <td>ID</td>
+        <td></td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td id="nameFieldContainer"></td>
+        <td id="surnameFieldContainer"></td>
+        <td id="phoneFieldContainer"></td>
+        <td id="sendButtonContainer" class="text-center"></td>
+        <td id="idFieldContainer"></td>
+        <td id="removeButtonContainer" class="text-center"></td>
+    </tr>
+    </tbody>
+</table>
+
+<center class="alert alert-info">
+    Fill 'id' field to specify a contact to delete/edit. Leave it empty to generate automatically while creating. <br/>
+    You can sort contacts by id or name.
+</center>
+
+<div id="errorContainer"></div>
+
+<div id="tableContainer"></div>
+
+</body>
+</html>

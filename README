@@ -1,0 +1,4 @@
+
+To run the project write: mvn install gwt:run
+
+Application was tested on Firefox v24.

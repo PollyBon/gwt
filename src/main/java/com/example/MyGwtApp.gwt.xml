@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='MyGwtApp'>
+  <inherits name='com.google.gwt.user.User'/>
+  <inherits name='com.google.gwt.user.theme.chrome.Chrome'/>
+  <entry-point class='com.example.client.MyGwtApp'/>
+
+  <source path='client'/>
+  <source path='shared'/>
+
+</module>
